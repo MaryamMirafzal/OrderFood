@@ -7,7 +7,7 @@ function Layout({children}) {
     <>
       <header className={styles.header}>
         <div className={styles.left}>
-            <Link href="/">OrderFood</Link>
+            <Link href="/">BotoFood</Link>
         </div>
         <div className={styles.right}>
             <Link href="/menu">Menu</Link>
@@ -16,7 +16,7 @@ function Layout({children}) {
       </header>
       <div className={styles.container}>{children}</div>
       <footer className={styles.footer}>
-        Next.js Course | OrderFood Project &copy;
+        Next.js Course | BotoFood Project &copy;
       </footer>
     </>
   )
